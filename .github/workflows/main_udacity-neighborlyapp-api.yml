@@ -50,4 +50,4 @@ jobs:
         app-name: 'udacity-neighborlyapp-api'
         package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
         slot-name: 'Production'
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2A5E084E4F26484F93C97B4042228B1D }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F90F38DA7BE541239172DD24118D8CBC }}
