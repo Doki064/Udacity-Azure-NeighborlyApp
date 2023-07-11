@@ -65,6 +65,6 @@ jobs:
           app-name: 'udacity-neighborlyapp'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA7B258A781549EEB2C217622FCF1789 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A616763F462945AB899C97FC64DE1CF7 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
