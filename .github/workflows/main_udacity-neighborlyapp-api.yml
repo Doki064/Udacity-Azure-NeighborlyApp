@@ -8,7 +8,13 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'NeighborlyFrontEnd/'
   workflow_dispatch:
+  
+defaults:
+  run:
+    working-directory: NeighborlyAPI
 
 env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.' # set this to the path to your web app project, defaults to the repository root
