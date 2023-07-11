@@ -39,5 +39,5 @@ jobs:
         with:
           app-name: 'udacity-neighborlyapp'
           package: NeighborlyFrontEnd
-          slot-name: 'Production - FrontEnd'
+          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D5943B9860514D81B4687DABDA2F7E60 }}
