@@ -3,7 +3,7 @@ import logging
 import azure.functions as func
 
 
-def main(event: func.EventGridEvent):
+def main(event: func.EventHubEvent):
     event = event[0]
     logging.info('Function triggered to process a message: ', event.get_body())
     logging.info('  EnqueuedTimeUtc =', event.enqueued_time)
@@ -19,4 +19,4 @@ def main(event: func.EventGridEvent):
     })
 
 
-    logging.info('Python EventGrid trigger processed an event: %s', result)
+    logging.info('Python EventHub trigger processed an event: %s', result)

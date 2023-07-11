@@ -2,7 +2,7 @@
   "scriptFile": "__init__.py",
   "bindings": [
     {
-      "type": "eventGridTrigger",
+      "type": "eventHubTrigger",
       "name": "event",
       "direction": "in",
 	  "eventHubName": "neighborlyapp-event",
